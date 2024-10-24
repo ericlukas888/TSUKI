@@ -119,9 +119,13 @@ h1 {
     left: 250px !important;
   }
 
-  .indexlist {
-	height: unset !important;
-  }
+  
+}
+
+@media screen and (max-width: 1024x) {
+	.indexlist {
+		height: unset !important;
+	  }
 }
 
 .link {
